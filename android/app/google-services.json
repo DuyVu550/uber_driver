@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "168114649559",
+    "firebase_url": "https://trippo-73fd7-default-rtdb.firebaseio.com",
+    "project_id": "trippo-73fd7",
+    "storage_bucket": "trippo-73fd7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168114649559:android:3fb282846e71768a0ff392",
+        "android_client_info": {
+          "package_name": "com.example.uber_clone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGETeL_KuN9iMwgEV6hjg6GiRtWijfNzA"
+        },
+        {
+          "current_key": "AIzaSyDxXyLrfPq42UzbVPNOMnFrCDuqgMqm6mQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168114649559:android:11b9faf55633751d0ff392",
+        "android_client_info": {
+          "package_name": "com.example.uber_driver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGETeL_KuN9iMwgEV6hjg6GiRtWijfNzA"
+        },
+        {
+          "current_key": "AIzaSyDxXyLrfPq42UzbVPNOMnFrCDuqgMqm6mQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
