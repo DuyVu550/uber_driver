@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'Uber Clone',
         debugShowCheckedModeBanner: false,
-        themeMode: ThemeMode.system,
+       // themeMode: ThemeMode.system,
         theme: MyThemes.lightTheme,
         darkTheme: MyThemes.darkTheme,
         home: SplashScreen(),
