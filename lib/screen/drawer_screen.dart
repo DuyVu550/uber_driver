@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:uber_driver/screen/profile_screen.dart';
-
-
-
 import '../global/global.dart';
 import '../splashScreen/SplashScreen.dart';
 class DrawerScreen extends StatelessWidget {

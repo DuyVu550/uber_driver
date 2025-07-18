@@ -8,6 +8,7 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:uber_driver/global/global.dart';
+import 'package:uber_driver/pushNotification/push_notification_system.dart';
 
 import '../Assistant_methods/assistant_method.dart';
 
@@ -85,6 +86,8 @@ class _HomeTabPageState extends State<HomeTabPage> {
                 (snap.snapshot.value as Map)["car_details"]["car_color"];
             onlineDriverData.car_number =
                 (snap.snapshot.value as Map)["car_details"]["car_number"];
+            onlineDriverData.car_type =
+                (snap.snapshot.value as Map)["car_details"]["type"];
 
             driverVehicleType =
                 (snap.snapshot.value as Map)["car_details"]["type"];
@@ -98,6 +101,10 @@ class _HomeTabPageState extends State<HomeTabPage> {
     super.initState();
     checkIfLocationPermissionAllowed();
     readCurrentDriverInfo();
+
+    PushNotificationSystem pushNotificationSystem = PushNotificationSystem();
+    pushNotificationSystem.initializeCloudMessaging(context);
+    pushNotificationSystem.generateAndGetToken();
   }
 
   @override
